@@ -23,7 +23,7 @@
     <!-- Start Header/Navigation -->
     <nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" aria-label="Furni navigation bar">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Furni<span>.</span></a>
+            <a class="navbar-brand" href="/">Furni<span>.</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse" id="navbarsFurni">
                 <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="/">Home</a>
                     </li>
                     <li><a class="nav-link" href="shop.html">Shop</a></li>
                     <li><a class="nav-link" href="about.html">About us</a></li>
@@ -139,7 +139,9 @@
             <div class="border-top copyright">
                 <div class="row pt-4">
                     <div class="col-lg-6">
-                        <p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a></p>
+                        <p class="mb-2 text-center text-lg-start">Copyright &copy;<script>
+                                document.write(new Date().getFullYear());
+                            </script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a></p>
                     </div>
 
                     <div class="col-lg-6 text-center text-lg-end">
@@ -159,4 +161,5 @@
     <script src="js/custom.js"></script>
 
 </body>
+
 </html>
